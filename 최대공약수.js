@@ -10,7 +10,6 @@ function gcd(num1,num2){
         return num2;
     }
     return gcd(num2, num1%num2); 
-    
 }
 
 console.log('최대공약수: '+gcd(192,162));

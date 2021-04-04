@@ -68,3 +68,11 @@ fruits.push('🍎');
 console.log(fruits);
 console.log(fruits.indexOf('🍎'));
 console.log(fruits.lastIndexOf('🍎'));
+
+fruits.reverse();
+console.log(fruits);
+
+const str = 'hi,hello,my,name,is';
+const strArr = str.split(','); //string to Array
+console.log(strArr);
+console.log(strArr.join('/')); // Array to string

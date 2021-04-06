@@ -22,7 +22,7 @@ console.log(typeof(arr2)); //number가 아니라 object 타입
 {
     //이런 함정이!!
     console.log('#5');
-    const a=10;
+    let a=10;
     const b=2;
 
     for(let i=1;i<5;i+=2){

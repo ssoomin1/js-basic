@@ -105,10 +105,23 @@ x.attack();
 // }
 
 //문제 15번
-{
-    const myName=prompt('이름 입력: ');
-    console.log('안녕하세요. 저는 '+myName+'입니다.');
-    console.log(`안녕하세요. 저는 ${myName}입니다.`);
-}
+// {
+//     const myName=prompt('이름 입력: ');
+//     console.log('안녕하세요. 저는 '+myName+'입니다.');
+//     console.log(`안녕하세요. 저는 ${myName}입니다.`);
+// }
 
 //문제16번
+{
+    const mySentence=prompt('문장 입력: ');
+    const leng=mySentence.length; //3
+    let set=[];
+    for(let i=0;i<leng;i++){
+        set[i]=mySentence[leng-1-i];
+    }
+    console.log(set.join(''));
+    //거꾸로
+    //set[0]=[3-1]=[2] 로
+    //set[1]=[3-1-1]=[1] 꾸
+    //set[2]=[3-2-1]=[0] 거
+}

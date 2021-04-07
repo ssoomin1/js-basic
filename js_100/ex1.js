@@ -32,6 +32,74 @@ console.log(typeof(arr2)); //number가 아니라 object 타입
     console.log(a+b); //14+2=16
 }
 
+{
+    const d={
+        'height':100,
+        'weight':78,
+        'weight':84,
+        'temperature':36,
+        'eyesight':1
+    };
+
+    console.log(d['weight']);
+}
+
+//문제 9번
+{
+    const year='2019';
+    const month='04';
+    const day='28';
+    const hour='11';
+    const minute='34';
+    const second='27';
+
+    const result=year.concat('/',month,'/',day,' ',hour,':',minute,':',second);
+    console.log(result);
+}
+
+//문제 10번
+// const number = prompt('숫자를 입력하세요: ');
+// for(let i=0;i<)
+
+//문제 11번
+let s=0;
+for(let i=1;i<=100;i++){
+    s+=i;
+}
+
+console.log(s);
+
+//문제 12번
+class Wizard {
+    constructor(health, mana, armor) {
+        this.health=health;
+        this.mana=mana;
+        this.armor=armor;
+    }
+
+    attack(){
+        console.log('파이어볼');
+    }
+}
 
 
+const x=new Wizard(545,210,10);
+console.log(x.health,x.mana,x.armor);
+x.attack();
 
+//문제 13번
+// {
+//     const solar=['수성','금성','지구','화성','목성','토성','천왕성','해왕성'];
+//     const num=prompt('몇번째 행성을 선택하실건가요?');
+//     console.log(solar[num-1]);
+// }
+
+//문제 14번
+{
+    const num1=prompt('숫자 입력: ');
+    if(num1%3 === 0){
+        console.log('짝');
+    }else{
+        console.log(num1);
+    }
+}

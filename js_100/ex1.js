@@ -95,11 +95,20 @@ x.attack();
 // }
 
 //문제 14번
+// {
+//     const num1=prompt('숫자 입력: ');
+//     if(num1%3 === 0){
+//         console.log('짝');
+//     }else{
+//         console.log(num1);
+//     }
+// }
+
+//문제 15번
 {
-    const num1=prompt('숫자 입력: ');
-    if(num1%3 === 0){
-        console.log('짝');
-    }else{
-        console.log(num1);
-    }
+    const myName=prompt('이름 입력: ');
+    console.log('안녕하세요. 저는 '+myName+'입니다.');
+    console.log(`안녕하세요. 저는 ${myName}입니다.`);
 }
+
+//문제16번

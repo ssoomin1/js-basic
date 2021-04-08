@@ -51,13 +51,20 @@
 
 //ex24 : 이름을 입력하면 대문자로 바꿔주기
 {
-    const name=prompt('이름 입력: ');
+    //const name=prompt('이름 입력: ');
+    const name='SooMin';
     console.log(name.toUpperCase());
 }
 
-//ex25
+//ex25 : 원의 넓이 구하기
 {
+    function circle(r1){
+        return r1*r1*3.14;
+    }
 
+    //const r2=prompt('반지름 입력: ');
+    const r2=3;
+    console.log(circle(r2));
 }
 
 //ex26

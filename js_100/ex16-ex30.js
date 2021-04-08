@@ -42,8 +42,45 @@
 
 //ex20
 {
-    const num=prompt('숫자 입력: ').split(' ');
+    //const num=prompt('숫자 입력: ').split(' ');
+    const num='5 6'.split(' ');
     const num1=parseInt(num[0]);
     const num2=parseInt(num[1]);
     console.log(Math.floor(num1/num2)+" "+num1%num2);
+}
+
+//ex24 : 이름을 입력하면 대문자로 바꿔주기
+{
+    const name=prompt('이름 입력: ');
+    console.log(name.toUpperCase());
+}
+
+//ex25
+{
+
+}
+
+//ex26
+{
+
+}
+
+//ex27
+{
+
+}
+
+//ex28
+{
+
+}
+
+//ex29
+{
+
+}
+
+//ex30
+{
+    
 }

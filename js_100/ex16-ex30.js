@@ -88,6 +88,15 @@
 
 //ex27
 {
+    const names=prompt('학생 이름 입력: ').split(' ');
+    const scores=prompt('차례대로 점수 입력: ').split(' ');
+    const student={};
+    for(let i=0;i<names.length;i++){
+        student[names[i]]=parseInt(scores[i],10);
+    }
+
+    console.log(student);
+    
 }
 
 //ex28

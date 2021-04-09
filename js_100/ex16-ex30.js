@@ -69,12 +69,25 @@
 
 //ex26
 {
-
+    //이러한 구조를 뭐라고 부릅니까..?
+    const Planet={
+        '수성':'Mercury',
+        '금성':'Venus',
+        '지구':'Earth',
+        '화성':'Mars',
+        '목성' : 'Jupiter',
+        '토성' : 'Saturn',
+        '천왕성' : 'Uranus',
+        '해왕성':'Neptune'
+    };
+    
+    //const name=prompt('행성이름입력: ');
+    const name='천왕성';
+    console.log(Planet[name]);
 }
 
 //ex27
 {
-
 }
 
 //ex28

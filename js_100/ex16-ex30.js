@@ -88,20 +88,23 @@
 
 //ex27
 {
-    const names=prompt('학생 이름 입력: ').split(' ');
-    const scores=prompt('차례대로 점수 입력: ').split(' ');
-    const student={};
-    for(let i=0;i<names.length;i++){
-        student[names[i]]=parseInt(scores[i],10);
-    }
+    // const names=prompt('학생 이름 입력: ').split(' ');
+    // const scores=prompt('차례대로 점수 입력: ').split(' ');
+    // const student={};
+    // for(let i=0;i<names.length;i++){
+    //     student[names[i]]=parseInt(scores[i],10);
+    // }
 
-    console.log(student);
+    // console.log(student);
     
 }
 
 //ex28
 {
-
+    const str=prompt('문자열 입력').split('');
+    for(let i=0;i<str.length-1;i++){
+        console.log(str[i]+' '+str[i+1]);
+    }
 }
 
 //ex29

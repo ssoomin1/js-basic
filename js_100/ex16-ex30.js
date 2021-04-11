@@ -110,7 +110,8 @@
 
 //ex29 대문자만 지나가세요
 {
-    const al = prompt('알파벳 하나 입력: ');
+    //const al = prompt('알파벳 하나 입력: ');
+    const al='b';
     const al_arr=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
     if(al_arr.includes(al)===true){
         console.log('YES');
@@ -128,5 +129,7 @@
 
 //ex30
 {
-    
+    const sentence = prompt('문자열 입력: ');
+    const se = prompt('찾을 문자 입력: ');
+    console.log(sentence.indexOf(se));
 }

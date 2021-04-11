@@ -101,15 +101,29 @@
 
 //ex28
 {
-    const str=prompt('문자열 입력').split('');
+    //const str=prompt('문자열 입력').split('');
+    const str='Javascript';
     for(let i=0;i<str.length-1;i++){
         console.log(str[i]+' '+str[i+1]);
     }
 }
 
-//ex29
+//ex29 대문자만 지나가세요
 {
+    const al = prompt('알파벳 하나 입력: ');
+    const al_arr=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+    if(al_arr.includes(al)===true){
+        console.log('YES');
+    }else{
+        console.log('NO');
+    }
 
+    //답안
+    if(al === al.toUpperCase()){
+        console.log('YES');
+    }else{
+        console.log('NO');
+    }
 }
 
 //ex30

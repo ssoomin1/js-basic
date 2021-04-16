@@ -14,7 +14,8 @@
 }
 //ex34 : sort 구현하기
 {
-    const numbers=prompt('입력: ').split(' ');
+    //const numbers=prompt('입력: ').split(' ');
+    const numbers='120 160 123 157'.split(' ');
     const heights=numbers.map((h)=>h);
     const sortNumbers=numbers.sort((a,b)=>a-b);
     const answerArr=[];
@@ -28,4 +29,38 @@
 
     const answer=answerArr.every((index)=>index===true)?'YES':'NO';
     console.log(answer);
+}
+
+//ex34_ver2
+{
+    const numbers='10 20 70 50';
+    
+}
+
+//ex35
+{
+    function one(n){
+        function two(){
+            
+        }
+        return two;
+    }
+    
+    const a = one(2);
+    const b = one(3);
+    const c = one(4);
+    
+    console.log(a(10));
+    console.log(b(10));
+    console.log(c(10));
+}
+
+//ex36
+{
+    const number=Number(prompt('입력: '));
+    const answer=[];
+    for(let i=1;i<10;i++){
+        answer.push(number*i);
+    }
+    console.log(answer.join(' '));
 }

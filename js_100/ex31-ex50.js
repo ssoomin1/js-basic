@@ -57,10 +57,26 @@
 
 //ex36
 {
-    const number=Number(prompt('입력: '));
+    //const number=Number(prompt('입력: '));
+    const number=Number('3');
     const answer=[];
     for(let i=1;i<10;i++){
         answer.push(number*i);
     }
     console.log(answer.join(' '));
+}
+
+//ex37
+{
+}
+
+//ex38
+
+//ex39 오타수정하기 모든 q를 e로 바꾸기
+{
+    const input=prompt('입력: ').split('');
+    for(let i=0;i<input.length;i++){
+        input[i]==='q'?input[i]='e':input[i];
+    }
+    console.log(input.join(''));
 }

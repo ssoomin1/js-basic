@@ -73,10 +73,27 @@
 //ex38
 
 //ex39 오타수정하기 모든 q를 e로 바꾸기
+// {
+//     const input=prompt('입력: ').split('');
+//     for(let i=0;i<input.length;i++){
+//         input[i]==='q'?input[i]='e':input[i];
+//     }
+//     console.log(input.join(''));
+// }
+
+//ex40 놀이동산에 가자
 {
-    const input=prompt('입력: ').split('');
-    for(let i=0;i<input.length;i++){
-        input[i]==='q'?input[i]='e':input[i];
+    const input1=prompt('제한 무게: ');
+    const input2=Number(prompt('함께한 친구들: '));
+    let weights=0;
+    let count=0;
+    for(let i=0;i<input2;i++){
+        const weight=Number(prompt('무게: '));
+        weights+=weight;
+        if(weights<input1){
+            count+=1
+        }
     }
-    console.log(input.join(''));
+
+    console.log(count);
 }

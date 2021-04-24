@@ -83,17 +83,32 @@
 
 //ex40 놀이동산에 가자
 {
-    const input1=prompt('제한 무게: ');
-    const input2=Number(prompt('함께한 친구들: '));
-    let weights=0;
-    let count=0;
-    for(let i=0;i<input2;i++){
-        const weight=Number(prompt('무게: '));
-        weights+=weight;
-        if(weights<input1){
-            count+=1
+    // const input1=prompt('제한 무게: ');
+    // const input2=Number(prompt('함께한 친구들: '));
+    // let weights=0;
+    // let count=0;
+    // for(let i=0;i<input2;i++){
+    //     const weight=Number(prompt('무게: '));
+    //     weights+=weight;
+    //     if(weights<input1){
+    //         count+=1
+    //     }
+    // }
+
+    // console.log(count);
+}
+
+//ex41 소수 판별
+{
+    const num=prompt('입력: ');
+    for(let i=2;i<=num;i++){
+        const result=num%i;
+        if (result === 0){
+            console.log('NO');
         }
     }
-
-    console.log(count);
+    if(num===1){
+        console.log('NO');
+    }
+    console.log('YES');
 }
